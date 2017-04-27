@@ -1,1 +1,46 @@
-
+nav {
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: grey;
+    
+    height: 50px;
+}
+nav img  {
+    position: absolute;
+    left:60px;
+    max-height: 100%;
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-left: 1px dotted black;
+    }
+.cat {
+    position: fixed;
+    top:  200px;
+    left: 150px;
+}
+.dog {
+    position: fixed;
+    top: 600px;
+    left: 600px;
+}
+.lol {
+    width : 200px;
+    height: 200px;
+}
+.greenBox {
+    border : 10px dotted green;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    right: 400px;
+}
+body {
+    background: url('images/nebula4.png') no-repeat center center fixed;
+}
